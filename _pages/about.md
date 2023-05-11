@@ -19,4 +19,5 @@ My research focuses on machine learning, both on theoretical side and applicatio
 focuses on establishing theoretical guarantees of generalization and optimization of deep learning algorithms.
 I have previously worked on topics including adversarial robustness, federated learning and differential
 privacy.
-======
+
+[//]: # (======)

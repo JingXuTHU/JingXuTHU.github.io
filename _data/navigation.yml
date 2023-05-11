@@ -16,7 +16,7 @@ main:
 #    url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: https://jingxuthu.github.io/files/CV_Jing_Xu.pdf
     
   - title: "Guide"
     url: /markdown/
