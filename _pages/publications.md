@@ -16,7 +16,7 @@ author_profile: true
 {% endfor %}
 
 
-## Preprints
+# Preprints
 
 You can find my preprints listed below:
 
