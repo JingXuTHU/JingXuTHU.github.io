@@ -4,7 +4,7 @@ Linear Regression"
 collection: publications
 permalink: 
 excerpt: 
-date: 2023
+date: 2023-9-1
 venue: 'Neurips'
 paperurl: 
 citation: 
