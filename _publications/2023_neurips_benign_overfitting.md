@@ -9,4 +9,4 @@ venue: 'Neurips'
 paperurl: 
 citation: 
 ---
-Jing Xu*, Jiaye Teng*, Yang Yuan, Andrew C Yao
+Jing Xu\*, Jiaye Teng\*, Yang Yuan, Andrew C Yao

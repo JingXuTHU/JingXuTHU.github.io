@@ -6,4 +6,4 @@ excerpt:
 paperurl: 
 citation: 
 ---
-Lesi Chen*, Jing Xu*, JingZhao Zhang
+Lesi Chen\*, Jing Xu\*, JingZhao Zhang
