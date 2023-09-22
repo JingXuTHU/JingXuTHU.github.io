@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second year Ph.D. student major in computer science at
+I am a third year Ph.D. student major in computer science at
 the [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/en/)
 in Tsinghua University.
 I am very fortunate to be advised by Professor [Andrew Chi-Chih Yao](https://iiis.tsinghua.edu.cn/en/yao/), who is the
