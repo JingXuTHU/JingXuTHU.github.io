@@ -8,4 +8,4 @@ venue: 'ICML'
 paperurl: https://arxiv.org/abs/2306.03440
 citation: 
 ---
-Jing Xu\*, Haoxiong Liu\*
+Jing Xu^*^, Haoxiong Liu^*^
