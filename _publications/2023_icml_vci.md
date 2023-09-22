@@ -1,11 +1,10 @@
 ---
 title: "Quantifying the Variability Collapse of Neural Networks"
-collection: publications
-permalink: 
+collection: publications 
 excerpt: 
 date: 2023-5-1
 venue: 'ICML'
-paperurl: https://arxiv.org/abs/2306.03440
+link: https://arxiv.org/abs/2306.03440
 citation: 
 ---
 Jing Xu\*, Haoxiong Liu\*
