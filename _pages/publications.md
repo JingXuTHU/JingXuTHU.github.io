@@ -18,8 +18,6 @@ author_profile: true
 
 # Preprints
 
-You can find my preprints listed below:
-
 {% for post in site.preprints %}
   {% include archive-single.html %}
 {% endfor %}
