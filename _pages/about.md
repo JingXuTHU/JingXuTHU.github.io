@@ -15,9 +15,6 @@ I am very fortunate to be advised by Professor [Andrew Chi-Chih Yao](https://iii
 A.M. Turing laureate of 2000. I received my B.S. degree in computer science from Peking University in 2021, advised by
 Professor [Liwei Wang](http://www.liweiwang-pku.com).
 
-My research focuses on machine learning, both on theoretical side and application side. My current research
-focuses on establishing theoretical guarantees of generalization and optimization of deep learning algorithms.
-I have previously worked on topics including adversarial robustness, federated learning and differential
-privacy.
+My research focuses on machine learning, both on theoretical side and application side. I enjoy establishing theoretical guarantees of generalization and optimization of deep learning algorithms. My current research focuses on designing practical and theoretically-sound optimization algorithms to pretrain and finetune large language models. I have previously worked on topics including generalization, adversarial robustness, federated learning and differential privacy.
 
 [//]: # (======)
