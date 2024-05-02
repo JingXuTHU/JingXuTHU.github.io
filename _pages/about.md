@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year Ph.D. student major in computer science at
+I am a third year Ph.D. student majoring in computer science at
 the [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/en/)
 in Tsinghua University.
 I am very fortunate to be advised by Professor [Andrew Chi-Chih Yao](https://iiis.tsinghua.edu.cn/en/yao/), who is the
-A.M. Turing laureate of 2000. I received my B.S. degree in computer science from Peking University in 2021, advised by
+A.M. Turing laureate of 2000. I received my B.S. degree in artificial intelligence from Peking University in 2021, advised by
 Professor [Liwei Wang](http://www.liweiwang-pku.com).
 
 My research focuses on machine learning, both on theoretical side and application side. I enjoy establishing theoretical guarantees of generalization and optimization of deep learning algorithms. My current research focuses on designing practical and theoretically-sound optimization algorithms to pretrain and finetune large language models. I have previously worked on topics including generalization, adversarial robustness, federated learning and differential privacy.
