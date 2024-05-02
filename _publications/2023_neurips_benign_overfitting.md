@@ -6,7 +6,7 @@ permalink:
 excerpt: 
 date: 2023-9-1
 venue: 'Neurips'
-link: https://arxiv.org/abs/2306.03440
+link: https://arxiv.org/abs/2202.06054
 paperurl: 
 citation: 
 ---
