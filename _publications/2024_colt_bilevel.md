@@ -2,7 +2,7 @@
 title: "On Bilevel Optimization without Lower-level Strong Convexity"
 collection: publications 
 excerpt: 
-date: 2024-7-1
+date: 2024-6-1
 venue: 'COLT'
 link: https://arxiv.org/abs/2301.00712
 citation: 
