@@ -10,4 +10,4 @@ link: https://arxiv.org/abs/2202.06054
 paperurl: 
 citation: 
 ---
-Jing Xu\*, Jiaye Teng\*, Yang Yuan, Andrew C Yao
+**Jing Xu\***, Jiaye Teng\*, Yang Yuan, Andrew C Yao
