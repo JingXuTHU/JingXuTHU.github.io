@@ -6,4 +6,4 @@ excerpt:
 paperurl: 
 citation: 
 ---
-Jing Xu, Sen Wang, Liwei Wang, Andrew C Yao
+**Jing Xu**, Sen Wang, Liwei Wang, Andrew C Yao
