@@ -8,4 +8,4 @@ venue: 'ICML'
 paperurl: 
 citation: 
 ---
-Jing Xu, Jingzhao Zhang
+**Jing Xu**, Jingzhao Zhang
