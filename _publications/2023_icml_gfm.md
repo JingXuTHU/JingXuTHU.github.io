@@ -8,4 +8,4 @@ venue: 'ICML'
 paperurl: 
 citation: 
 ---
-Lesi Chen, Jing Xu, Luo Luo
+Lesi Chen, **Jing Xu**, Luo Luo
