@@ -17,7 +17,7 @@ Professor [Liwei Wang](http://www.liweiwang-pku.com).
 
 My research focuses on machine learning, both on theoretical side and application side. I enjoy establishing theoretical guarantees of generalization and optimization of deep learning algorithms. My current research focuses on designing practical and theoretically-sound optimization algorithms to pretrain and finetune large language models. I have previously worked on topics including generalization, adversarial robustness, federated learning and differential privacy.
 
-# Publications
+<h2 class="section-title">Publications</h2>
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
@@ -30,7 +30,7 @@ My research focuses on machine learning, both on theoretical side and applicatio
 {% endfor %}
 
 
-# Preprints
+<h2 class="section-title">Preprints</h2>
 
 {% for post in site.preprints %}
   {% include archive-single.html %}
