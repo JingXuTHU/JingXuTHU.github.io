@@ -57,3 +57,12 @@
     font-weight: bold; /* Make the text bold */
     margin-bottom: 10px; /* Add some space below the title */
 }
+
+.card.list__item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
