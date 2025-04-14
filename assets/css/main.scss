@@ -39,3 +39,14 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.archive__item-title a {
+    color: #333; /* Change to a more neutral color */
+    text-decoration: none; /* Remove the underline */
+    font-weight: bold; /* Make the text bold for emphasis */
+}
+
+.archive__item-title a:hover {
+    color: #555; /* Slightly different color on hover */
+    text-decoration: underline; /* Add underline on hover for interactivity */
+}
