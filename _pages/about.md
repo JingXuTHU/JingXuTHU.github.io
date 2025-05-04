@@ -21,7 +21,7 @@ I have worked on topics including:
 - Scalable model merging.
 - Generalization guarantees of machine learning algorithms.
 - Implicit bias and their empirical signals.
-- Optimization Algorithm for structured problems.
+- Optimization algorithms for structured problems.
 
 
 <h2 class="section-title">Publications</h2>
