@@ -26,14 +26,13 @@ I have worked on topics including:
 <h2 class="section-title">Internship Experiences</h2>
 
 **Moonshot AI** (Feb. 2025 – Jun. 2025)  
-*Machine Learning Intern, Pre-training Team*  
-- Developed efficient and stable optimization algorithms (e.g., Muon and its variants) for large language models. 
+*Machine Learning Intern at Pre-training Team*  
+- Developed efficient and stable optimization algorithms (e.g., Muon and its variants) for LLM pre-training. 
 
 **Jump Trading** (Jun. 2024 – Aug. 2024)  
 *Quantitative Research Intern*  
 - Conducted alpha analysis for China's stock market.  
 
-## Publications
 
 <h2 class="section-title">Publications</h2>
 
