@@ -40,11 +40,4 @@ I have worked on topics including:
   {% include archive-single.html %}
 {% endfor %}
 
-
-<h2 class="section-title">Preprints</h2>
-
-{% for post in site.preprints %}
-  {% include archive-single.html %}
-{% endfor %}
-
 [//]: # (======)
