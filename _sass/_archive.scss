@@ -272,20 +272,10 @@
 }
 
 .publication-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
   margin-bottom: 0.5em;
-  gap: 1em;
-  
-  @include breakpoint($small) {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 }
 
 .publication-title {
-  flex: 1;
   margin: 0;
   font-size: $type-size-4;
   font-weight: 600;
@@ -303,42 +293,6 @@
   }
 }
 
-.venue-badge {
-  display: inline-block;
-  padding: 0.2em 0.6em;
-  border-radius: 4px;
-  font-size: $type-size-7;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  white-space: nowrap;
-  
-  &.venue-icml {
-    background: #ff6b6b;
-    color: white;
-  }
-  
-  &.venue-neurips {
-    background: #4ecdc4;
-    color: white;
-  }
-  
-  &.venue-colt {
-    background: #a8e6cf;
-    color: #2c3e50;
-  }
-  
-  &.venue-teaching {
-    background: #ffd93d;
-    color: #2c3e50;
-  }
-  
-  // Default styling for other venues
-  &:not(.venue-icml):not(.venue-neurips):not(.venue-colt):not(.venue-teaching) {
-    background: #667eea;
-    color: white;
-  }
-}
 
 .publication-authors {
   margin-bottom: 0.5em;

@@ -35,16 +35,6 @@
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
           {% endif %}
         </h3>
-        
-        {% if post.collection == 'publications' %}
-          <span class="venue-badge venue-{{ post.venue | downcase }}">
-            {{ post.venue }}
-          </span>
-        {% elsif post.collection == 'teaching' %}
-          <span class="venue-badge venue-teaching">
-            {{ post.type }}
-          </span>
-        {% endif %}
       </div>
 
       {% if post.authors %}
