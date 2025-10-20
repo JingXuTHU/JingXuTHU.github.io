@@ -62,7 +62,7 @@
         {% elsif post.collection == 'publications' %}
           <span class="meta-item">
             <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
-            {{ post.date | default: "1900-01-01" | date: "%Y" }}
+            {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}
           </span>
         {% elsif post.date %}
           <span class="meta-item">
@@ -88,13 +88,6 @@
           <a href="{{ post.paperurl }}" class="action-link download-link">
             <i class="fa fa-download" aria-hidden="true"></i>
             PDF
-          </a>
-        {% endif %}
-        
-        {% if post.link %}
-          <a href="{{ post.link }}" class="action-link external-link" target="_blank">
-            <i class="fa fa-external-link" aria-hidden="true"></i>
-            Link
           </a>
         {% endif %}
         

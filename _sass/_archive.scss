@@ -406,15 +406,6 @@
     }
   }
   
-  &.external-link {
-    color: $success-color;
-    border-color: $success-color;
-    
-    &:hover {
-      background: $success-color;
-      color: white;
-    }
-  }
   
   &.citation-link {
     color: $warning-color;
