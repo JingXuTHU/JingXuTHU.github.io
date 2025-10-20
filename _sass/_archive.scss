@@ -153,6 +153,291 @@
 
 
 /*
+   Publication List (Enumeration Design)
+   ========================================================================== */
+
+.publication-intro {
+  margin-bottom: 2em;
+  padding: 1em;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 8px;
+  border-left: 4px solid $info-color;
+  
+  p {
+    margin: 0;
+    font-size: $type-size-5;
+    color: $text-color;
+  }
+}
+
+.publications-container {
+  margin-bottom: 3em;
+}
+
+.publication-year-section {
+  margin-bottom: 3em;
+}
+
+.publication-year-header {
+  font-size: $type-size-2;
+  font-weight: 600;
+  color: $primary-color;
+  margin-bottom: 1.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid $border-color;
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: $info-color;
+  }
+}
+
+.publication-year-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.preprints-section {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 2px solid $border-color;
+}
+
+.preprints-header {
+  font-size: $type-size-2;
+  font-weight: 600;
+  color: $primary-color;
+  margin-bottom: 1.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid $border-color;
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: $warning-color;
+  }
+}
+
+.preprints-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.publication-item {
+  position: relative;
+  padding-left: 2em;
+  margin-bottom: 0;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.8em;
+    width: 8px;
+    height: 8px;
+    background: $info-color;
+    border-radius: 50%;
+  }
+  
+  &::after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 1.6em;
+    bottom: -1em;
+    width: 2px;
+    background: $border-color;
+  }
+  
+  &:last-child::after {
+    display: none;
+  }
+}
+
+.publication-content {
+  padding: 0;
+}
+
+.publication-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5em;
+  gap: 1em;
+  
+  @include breakpoint($small) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.publication-title {
+  flex: 1;
+  margin: 0;
+  font-size: $type-size-4;
+  font-weight: 600;
+  line-height: 1.4;
+  
+  a {
+    color: $text-color;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: $info-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+.venue-badge {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-size: $type-size-7;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  
+  &.venue-icml {
+    background: #ff6b6b;
+    color: white;
+  }
+  
+  &.venue-neurips {
+    background: #4ecdc4;
+    color: white;
+  }
+  
+  &.venue-colt {
+    background: #a8e6cf;
+    color: #2c3e50;
+  }
+  
+  &.venue-teaching {
+    background: #ffd93d;
+    color: #2c3e50;
+  }
+  
+  // Default styling for other venues
+  &:not(.venue-icml):not(.venue-neurips):not(.venue-colt):not(.venue-teaching) {
+    background: #667eea;
+    color: white;
+  }
+}
+
+.publication-authors {
+  margin-bottom: 0.5em;
+  font-size: $type-size-5;
+  color: $gray;
+  font-style: italic;
+}
+
+.publication-meta {
+  margin-bottom: 0.8em;
+  font-size: $type-size-6;
+  color: $gray;
+  
+  .meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    
+    i {
+      color: $primary-color;
+    }
+  }
+}
+
+.publication-excerpt {
+  margin-bottom: 1em;
+  font-size: $type-size-5;
+  line-height: 1.6;
+  color: $text-color;
+}
+
+.publication-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 0.8em;
+  
+  @include breakpoint($small) {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+}
+
+.action-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.3em 0.8em;
+  border-radius: 4px;
+  font-size: $type-size-6;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background: none;
+  
+  &.download-link {
+    color: $info-color;
+    border-color: $info-color;
+    
+    &:hover {
+      background: $info-color;
+      color: white;
+    }
+  }
+  
+  &.external-link {
+    color: $success-color;
+    border-color: $success-color;
+    
+    &:hover {
+      background: $success-color;
+      color: white;
+    }
+  }
+  
+  &.citation-link {
+    color: $warning-color;
+    border-color: $warning-color;
+    
+    &:hover {
+      background: $warning-color;
+      color: white;
+    }
+    
+    &.copied {
+      background: $success-color;
+      color: white;
+      border-color: $success-color;
+    }
+  }
+  
+  i {
+    font-size: $type-size-7;
+  }
+}
+
+/*
    Features
    ========================================================================== */
 

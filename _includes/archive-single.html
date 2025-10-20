@@ -12,7 +12,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="card {{ include.type | default: "list" }}__item" style="margin-bottom: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 5px;">
+<div class="publication-item {{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -26,40 +26,85 @@
       </div>
     {% endif %}
 
-    <div class="card-body">
-      <h2 class="archive__item-title card-title" itemprop="headline">
-        {% if post.link %}
-          <a href="{{ post.link }}">{{ title }}</a>
-        {% else %}
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    <div class="publication-content">
+      <div class="publication-header">
+        <h3 class="archive__item-title publication-title" itemprop="headline">
+          {% if post.link %}
+            <a href="{{ post.link }}">{{ title }}</a>
+          {% else %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          {% endif %}
+        </h3>
+        
+        {% if post.collection == 'publications' %}
+          <span class="venue-badge venue-{{ post.venue | downcase }}">
+            {{ post.venue }}
+          </span>
+        {% elsif post.collection == 'teaching' %}
+          <span class="venue-badge venue-teaching">
+            {{ post.type }}
+          </span>
         {% endif %}
-      </h2>
+      </div>
 
       {% if post.authors %}
-        <p class="card-text"><strong>Authors:</strong> {{ post.authors }}</p>
+        <div class="publication-authors">
+          <strong>{{ post.authors }}</strong>
+        </div>
       {% endif %}
       
-      {% if post.collection == 'teaching' %}
-        <p class="card-text"> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-      {% elsif post.collection == 'publications' %}
-        <p class="card-text">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-      {% elsif post.date %}
-        <p class="card-text"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-      {% endif %}
+      <div class="publication-meta">
+        {% if post.collection == 'teaching' %}
+          <span class="meta-item">
+            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+            {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+          </span>
+        {% elsif post.collection == 'publications' %}
+          <span class="meta-item">
+            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+            {{ post.date | default: "1900-01-01" | date: "%Y" }}
+          </span>
+        {% elsif post.date %}
+          <span class="meta-item">
+            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+            <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+          </span>
+        {% endif %}
+      </div>
 
       {% if post.excerpt and site.read_more != 'enabled' %}
-        <p class="archive__item-excerpt card-text" itemprop="description">{{ post.excerpt | markdownify }}</p>
+        <div class="publication-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>
       {% elsif post.excerpt and site.read_more == 'enabled' %}
-        <p class="archive__item-excerpt card-text" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p>
+        <div class="publication-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></div>
       {% endif %}
       
-      {% if post.citation and post.paperurl %}
-        <p class="card-text">Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><i class="fa fa-download" aria-hidden="true"></i> <u>{{ post.paperurl }}</u></a></p>
-      {% elsif post.citation %}
-        <p class="card-text">Recommended citation: {{ post.citation }} </p>
-      {% elsif post.paperurl %}
-        <p class="card-text">Download <a href=" {{ post.paperurl }} "><i class="fa fa-download" aria-hidden="true"></i> <u>here</u></a></p>
-      {% endif %}
+      <div class="publication-actions">
+        {% if post.citation and post.paperurl %}
+          <a href="{{ post.paperurl }}" class="action-link download-link">
+            <i class="fa fa-download" aria-hidden="true"></i>
+            PDF
+          </a>
+        {% elsif post.paperurl %}
+          <a href="{{ post.paperurl }}" class="action-link download-link">
+            <i class="fa fa-download" aria-hidden="true"></i>
+            PDF
+          </a>
+        {% endif %}
+        
+        {% if post.link %}
+          <a href="{{ post.link }}" class="action-link external-link" target="_blank">
+            <i class="fa fa-external-link" aria-hidden="true"></i>
+            Link
+          </a>
+        {% endif %}
+        
+        {% if post.citation %}
+          <button class="action-link citation-link" onclick="copyCitation('{{ post.citation | escape }}')">
+            <i class="fa fa-copy" aria-hidden="true"></i>
+            Citation
+          </button>
+        {% endif %}
+      </div>
     </div>
   </article>
 </div>
