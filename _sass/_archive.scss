@@ -181,7 +181,7 @@
 .publication-year-header {
   font-size: $type-size-2;
   font-weight: 600;
-  color: #2c3e50;
+  color: $primary-color;
   margin-bottom: 1.5em;
   padding-bottom: 0.5em;
   border-bottom: 2px solid $border-color;
@@ -194,7 +194,7 @@
     left: 0;
     width: 60px;
     height: 2px;
-    background: #3498db;
+    background: $info-color;
   }
 }
 
@@ -213,7 +213,7 @@
 .preprints-header {
   font-size: $type-size-2;
   font-weight: 600;
-  color: #2c3e50;
+  color: $primary-color;
   margin-bottom: 1.5em;
   padding-bottom: 0.5em;
   border-bottom: 2px solid $border-color;
@@ -226,7 +226,7 @@
     left: 0;
     width: 60px;
     height: 2px;
-    background: #e74c3c;
+    background: $warning-color;
   }
 }
 
