@@ -25,6 +25,10 @@ I have worked on topics including:
 
 <h2 class="section-title">Internship Experiences</h2>
 
+**Citadel Securities** (Jun. 2025 – Sept. 2025)  
+*Quantitative Research Intern*  
+- Built LLM pipelines to extract signals and build alphas from text-based alternative dataset.
+
 **Moonshot AI** (Feb. 2025 – Jun. 2025)  
 *Machine Learning Intern at Pre-training Team*  
 - Developed efficient and stable optimization algorithms (e.g., Muon and its variants) for LLM pre-training. 
