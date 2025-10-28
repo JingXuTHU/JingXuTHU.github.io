@@ -25,17 +25,22 @@ I have worked on topics including:
 
 <h2 class="section-title">Internship Experiences</h2>
 
- - **Citadel Securities** (Jun. 2025 – Sept. 2025)<br>
-   <em>Quantitative Research Intern</em><br>
-   Built LLM pipelines to extract signals and build alphas from text-based alternative dataset.
+<dl class="experience-list">
+  <dt><strong>Citadel Securities</strong> <span class="dates">(Jun. 2025 – Sept. 2025)</span></dt>
+  <dd>
+    <em>Quantitative Research Intern</em> — Built LLM pipelines to extract signals and build alphas from text-based alternative dataset.
+  </dd>
 
- - **Moonshot AI** (Feb. 2025 – Jun. 2025)<br>
-   <em>Machine Learning Intern at Pre-training Team</em><br>
-   Developed efficient and stable optimization algorithms (e.g., Muon and its variants) for LLM pre-training.
+  <dt><strong>Moonshot AI</strong> <span class="dates">(Feb. 2025 – Jun. 2025)</span></dt>
+  <dd>
+    <em>Machine Learning Intern, Pre-training Team</em> — Developed efficient and stable optimization algorithms (e.g., Muon and its variants) for LLM pre-training.
+  </dd>
 
- - **Jump Trading** (Jun. 2024 – Aug. 2024)<br>
-   <em>Quantitative Research Intern</em><br>
-   Conducted alpha analysis for China's stock market.
+  <dt><strong>Jump Trading</strong> <span class="dates">(Jun. 2024 – Aug. 2024)</span></dt>
+  <dd>
+    <em>Quantitative Research Intern</em> — Conducted alpha analysis for China's stock market.
+  </dd>
+</dl>
 
 
 <h2 class="section-title">Publications</h2>
