@@ -16,12 +16,13 @@ A.M. Turing laureate of 2000. I received my B.S. degree in artificial intelligen
 Professor [Liwei Wang](http://www.liweiwang-pku.com).
 
 My research lies at the intersection of theoretical and applied machine learning. On the theoretical side, I am interested in establishing provable guarantees for the generalization and optimization of machine learning algorithms. On the empirical side, I have hands-on experience with large-scale LLM pre-training and am committed to designing efficient optimization algorithms that improve the scalability and performance pre-training.
-I have worked on topics including:
-- Parameter Efficient Fine-tuning of LLMs.
-- Scalable model merging.
-- Generalization guarantees of machine learning algorithms.
-- Implicit bias and their empirical signals.
-- Optimization algorithms for structured problems.
+I also have in-depth practical experience in quantitative research and have interned at top-tier quantitative trading firms, including Citadel Securities and Jump Trading.
+
+Previously, I have worked on topics including:
+- Efficient and stable optimizers for LLM pre-training.
+- Adaptation of LLMs, e.g., parameter-efficient fine-tuning and scalable model merging.
+- Generalization guarantees, implicit bias, and corresponding empirical signals in machine learning.
+- Upper and lower convergence bounds for optimization algorithms on structured problems.
 
 <h2 class="section-title">Internship Experiences</h2>
 
