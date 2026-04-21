@@ -8,17 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I am a fifth-year year Ph.D. student majoring in computer science at
+I am a fifth-year Ph.D. student majoring in computer science at
 the [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/en/)
 in Tsinghua University.
 I am very fortunate to be advised by Professor [Andrew Chi-Chih Yao](https://iiis.tsinghua.edu.cn/en/yao/), who is the
-A.M. Turing laureate of 2000. I received my B.S. degree in artificial intelligence from Peking University in 2021, advised by
+recipient of the 2000 A.M. Turing Award. I received my B.S. degree in artificial intelligence from Peking University in 2021, advised by
 Professor [Liwei Wang](http://www.liweiwang-pku.com).
 
-My research lies at the intersection of theoretical and applied machine learning. On the theoretical side, I am interested in establishing provable guarantees for the generalization and optimization of machine learning algorithms. On the empirical side, I have hands-on experience with large-scale LLM pre-training and am committed to designing efficient optimization algorithms that improve the scalability and performance pre-training.
+My research lies at the intersection of theoretical and applied machine learning. On the theoretical side, I am interested in establishing provable guarantees for the generalization and optimization of machine learning algorithms. On the empirical side, I have hands-on experience with large-scale LLM pre-training and am committed to designing efficient optimization algorithms that improve scalability and performance in pre-training.
 I also have in-depth practical experience in quantitative research and have interned at top-tier quantitative trading firms, including Citadel Securities and Jump Trading.
 
-Previously, I have worked on topics including:
+My previous work includes:
 - Efficient and stable optimizers for LLM pre-training.
 - Adaptation of LLMs, e.g., parameter-efficient fine-tuning and scalable model merging.
 - Generalization guarantees, implicit bias, and corresponding empirical signals in machine learning.
