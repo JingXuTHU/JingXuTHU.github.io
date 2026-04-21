@@ -27,7 +27,7 @@ I have worked on topics including:
 
  - **Citadel Securities** (Jun. 2025 – Sept. 2025)<br>
    <em>Quantitative Research Intern</em><br>
-   Built LLM pipelines to extract signals and build alphas from text-based alternative dataset.
+   Built LLM pipelines to extract signals and build alphas from text-based alternative dataset. Received return offer. 
 
  - **Moonshot AI** (Feb. 2025 – Jun. 2025)<br>
    <em>Machine Learning Intern at Pre-training Team</em><br>
