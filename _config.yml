@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jing Xu"
+  name             : "Jing Xu(许靖)"
   avatar           : "profile.png"
-  bio              : "fifth year Ph.D. student in IIIS, Tsinghua University"
+  bio              :
   location         :
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=jlrroGQAAAAJ"
-  email            :
+  email            : "txhju1999@gmail.com"
   researchgate     :
   uri              :
   bitbucket        :
