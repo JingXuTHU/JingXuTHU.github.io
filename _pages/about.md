@@ -25,17 +25,17 @@ My previous work includes:
 
 <h2 class="section-title">Experience</h2>
 
- - **Qwen (Alibaba)** (2026 – present)<br>
-   <em>Research Scientist, Pre-training Team</em><br>
-   Working on improved model architectures and training algorithms for large language models.
+ - **Qwen (Alibaba)** (Apr. 2026 – present)<br>
+   <em>Researcher, Pre-training Team</em><br>
+   Conducting research on LLM pre-training, exploring novel approaches in model architectures, training strategies, and scaling techniques. Selected for the Alibaba Alistar Talent Program.
 
  - **Citadel Securities** (Jun. 2025 – Sept. 2025)<br>
    <em>Quantitative Research Intern</em><br>
-   Built LLM pipelines to extract signals and build alphas from text-based alternative dataset. Received return offer. 
+   Built LLM pipelines to extract signals and build alphas from text-based alternative datasets. Received return offer.
 
  - **Moonshot AI** (Feb. 2025 – Jun. 2025)<br>
-   <em>Machine Learning Intern at Pre-training Team</em><br>
-   Developed efficient and stable optimization algorithms (e.g., Muon and its variants) for LLM pre-training.
+   <em>Machine Learning Intern, Pre-training Team</em><br>
+   Participated in developing efficient and stable optimization algorithms (e.g., MuonClip and other variants of Muon) for LLM pre-training. Contributed to Kimi K2 model.
 
  - **Jump Trading** (Jun. 2024 – Aug. 2024)<br>
    <em>Quantitative Research Intern</em><br>
